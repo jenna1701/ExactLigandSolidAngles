@@ -35,7 +35,7 @@ The output can be controlled by the variable *kPrint*:
 
 
 **SolidAnglePackage.nb/SolidAnglePackage.m**
-SolidAnglePackage.nb includes all mathematics used to solve for and visualize the solid angle. A list of standard atomic radii and zero energy point radii are already written into the program but can be changed or added to. To modify the list of atomic radii, locate the variable *RvdW* (Bondi atomic radii) and *RZ* (zero energy point radii). *RvdW* are *RZ* are lists of three lists. The first list holds atomic symbols whose position in this list correspond with values given in the next two lists, the second list holds atomic radii in Å, and the third list holds the atom colors for plotting. Once edits have been made to SolidAnglePackage.nb, the file must be saved as a Mathematica Package with the .m extension to allow SolidAngleDriver.nb to call upon the package.
+SolidAnglePackage.nb includes all mathematics used to solve for and visualize the solid angle. A list of standard atomic radii and zero energy point radii are already written into the program but can be changed or added to. To modify the list of atomic radii, locate the variable *RvdW* (Bondi atomic radii) and *RZ* (zero energy point radii). *RvdW* are *RZ* are lists of three lists. The first list holds atomic symbols whose position in this list correspond with values given in the next two lists, the second list holds the radii in Å, and the third list holds the atom colors for plotting. Once edits have been made to SolidAnglePackage.nb, the file must be saved as a Mathematica Package with the .m extension to allow SolidAngleDriver.nb to call upon the package.
 
 
 ## OUTPUT
